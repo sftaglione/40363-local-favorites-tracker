@@ -173,6 +173,20 @@ textarea {
     transform: translateY(0);
 }
 
+.btn-danger {
+    background-color: #dc3545;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(220, 53, 69, 0.4);
+}
+
+.btn-danger:active {
+    transform: translateY(0);
+}
 
 /* ==========================================
    SEARCH CONTROLS
@@ -238,7 +252,7 @@ textarea {
 .favorite-card:hover {
     border-color: #667eea;
     box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
-    transform: translateY(-5px);
+    transform: translateY (-5px);
 }
 
 .favorite-card h3 {
