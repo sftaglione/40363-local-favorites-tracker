@@ -194,8 +194,8 @@ function deleteFavorite(index) {
     // Confirm deletion with user
     const favorite = favorites[index];
     const confirmDelete = confirm(`Are you sure you want to delete "${favorite.name}"?`);
-}
-    if (confirmDelete) {
+
+    if (confirmDelete) 
         // Remove from array
         favorites.splice(index, 1);
         console.log('Favorite deleted. Total remaining:', favorites.length);
